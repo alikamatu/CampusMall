@@ -1,0 +1,394 @@
+body {
+    margin: 0%;
+    font-family: 'bahnschrift' !important;
+}
+.head-wrapper-container-text {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.head-wrapper-container-text > .company-head-name h1 {
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.menu-wrapper-right ul {
+    display: flex;
+    padding-right: 70px;
+    margin-right: 80px;
+}
+.menu-wrapper-right ul li {
+    list-style: none;
+    padding-right: 12px;
+}
+.popout-details li a {
+    background-color: darkred;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;  
+    font-family: 'bahnschrift';
+    text-decoration: none;
+    padding: 28px;
+}
+.popout-menu {
+    display: none;
+    transition: 0.3s;
+}
+.popout-menu ul {
+    position: absolute;
+    display: block !important;
+    background-color: darkred;
+    padding: 20px 40px;
+    margin-top: 6px;
+    transition: 0.3s;
+}
+.popout-menu ul li {
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+.popout-menu ul li:hover {
+    background-color: rgb(194, 0, 0);
+}
+.popout-details {
+    transition: 0.3s;
+}
+.popout-details:hover .popout-menu {
+    display: block;
+    transition: 0.3s;
+}
+.head-image-main img{
+    width: 100%;
+    margin-top: -350px; 
+}
+.company-name-wrapper {
+    position: relative;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+.main-name h1{
+    font-size: 6em;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-family: 'bahnschrift';
+    color: white;
+}
+.company-motto {
+    font-size: 3em;
+    font-family: 'gabriola';
+    margin-left: 200px;
+    color: white;
+    background-color: darkred;
+}
+.company-motto p {
+    margin-left: 50px;
+}
+.search-area-wrapper {
+    margin-top: 140px;
+    position: relative;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.search-bar-wrapper ul{
+    display: flex;
+}
+.search-bar-wrapper ul li {
+    padding-left: 10px;
+    list-style: none;
+}
+.search-area-bar {
+    margin-top: 30px;
+}
+.searcher {
+    display: block;
+    margin-left: 45%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid darkred;
+    width: 200px;
+    height: 50px;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'bahnschrift';
+}
+.searcher:hover {
+    border: none;
+    font-size: 1.5em;
+    font-family: 'bahnschrift';
+    outline: none;
+    border-bottom: 2px solid darkred;
+    width: 500px;
+    margin-left: 35%;
+    text-align: center;
+}
+.search-area-bar h3 {
+    margin-left: 47%;
+    font-family: 'bahnschrift';
+    color: darkred;
+}
+.hot-products-wrapper {
+    position: relative;
+    margin-top: 40px;
+    width: 60%;
+}
+.hot-product-image img {
+    width: 100%; 
+    height: 650px;
+    transition: 0.3s;
+}
+.hot-product-image img:hover {
+    transform: scale(1.1);
+}
+.hot-product-details-wrapper {
+    position: absolute;
+    margin-top: -655px;
+    background-color: rgba(0, 0, 0, 14%);
+    padding: 50px;
+}
+.hot-product-name {
+    background-color: darkred;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-left: -50px;
+    margin-right: 100px;
+}
+.hot-product-price-wrapper {
+    margin-left: 25%;
+    margin-top: 69%;
+}
+.hot-product-price {
+    font-size: 6em;     
+    color: initial;
+    font-weight: bolder;
+    font-family: 'gabriola';
+}
+.hot-product-price-btn button {
+    border: none;
+    background-color: darkred;
+    padding: 10px 30px;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2  em;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.hot-product-price-btn button:hover {
+    color: darkred;
+    background-color: white;
+}
+.hot-product-cat {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    margin-left: -40px;
+}
+
+.wide-product-wrapper {
+    margin-top: 50px;
+}
+.wide-product-image img {
+    width: 100%;
+    height: 500px;
+}
+.wide-product-details {
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 100px;
+}
+.wide-price {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'chiller';
+    color: darkred;
+}
+.wide-btn {
+    text-align: center;
+}
+.wide-btn button {
+    border: 2px solid transparent;
+    border-bottom: 2px solid darkred;
+    background-color: transparent;
+    color: white;
+    padding: 4px 20px;
+    font-size: 1.1em;
+    width: 50%;
+    margin-top: 5px;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+.wide-btn button:hover {
+    border: 2px solid darkred;
+}
+.wide-cat {
+    margin-top: 200px;
+    margin-left: -90px;
+}
+.wide-product-details > .wide-name {
+    font-size: 2em;
+    font-family: 'gabriola';
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.wide-margin-cover {
+    position: relative;
+    margin-top: -350px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 400px;
+}
+.wide-margin-cover > .products-list {
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.products-wrapper-container {
+    display: flex;
+    padding: 100px;
+}
+.products-list {
+    padding-left: 30px;
+    margin-bottom: -120px;
+}
+.product-image img{
+    width: 320px;
+    height: 250px;
+    transition: 0.3s;
+}
+.product-image img:hover {
+    transform: scale(1.1);
+}
+.product-details {
+    border: 3px solid darkred;
+    border-top: none;
+    text-align: left;
+    padding: 10px;
+}
+.name {
+    font-family: 'bahnschrift';
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.price-details {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color: darkred;
+    font-size: 1.9em;
+    font-weight: bolder;  
+    font-family: 'gabriola'; 
+}
+.buybtn button{
+    background-color: darkred;
+    border: none;
+    padding: 15px 20px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'bahnschrift';
+    transition: 0.2s;
+
+}
+.buybtn button:hover {
+    transform: scale(1.2);
+}
+.user-profile-image img {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+.user-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.username {
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'bahnschrift';
+}
+.reload-wrapper {
+    margin-top: 6%;
+    margin-left: 48%;
+}
+.reload-btn button {
+    background-color: darkred;
+    border: 2px solid darkred;
+    padding: 15px 35px;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'bahnschrift';
+    font-weight: bolder;
+}
+.reload-btn button:hover {
+    background-color: white;
+    color: darkred;
+    border: 2px solid darkred;
+}
+.footer-wrapper {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+}
+.footer-wrapper-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-company-name {
+    margin-left: -100px;
+}
+.footer-company-main h2 {
+    font-size: 1.8em;
+}
+.footer-company-title h4 {
+    margin-left: 40px;
+    font-family: 'gabriola';
+    font-size: 1.5em;
+    margin-top: -30px;
+}
+.socials-wrapper {
+    display: flex;
+}
+.social-p-wrapper {
+    margin-left: 20px;
+}
+.social-v-wrapper {
+    margin-right: 60px;
+    margin-left:  -140px ;
+}
+.social-p-wrapper ul li {
+    list-style: none;
+}
+.social-v-wrapper ul li {
+    list-style: none;
+}
+.email-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.email-input:focus {
+    outline: none;
+}
+.email-wrapper button {
+    background-color: white;
+    color: black;
+    margin-top: 7px;
+    justify-content: right;
+    border: none;
+    padding: 5px 7px;
+    font-weight: bold;
+}
